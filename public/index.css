@@ -20,7 +20,7 @@ header {
     background-color: rgb(7, 7, 99);
     font-size: 26px;
     color: white;
-    padding: 26px 0;
+    padding: 36px 0 16px 0;
     grid-column: 1;
 }
 
@@ -97,4 +97,14 @@ li :hover {
 .dropdown-horizontal {
     display: inline-block;
     position: relative;
+}
+
+.hower-text {
+    width: 90px; 
+    color: #fff;
+    background-color: rgb(63, 40, 161);
+    text-align: center;
+    padding: 24.5px;
+    font-size: 24px; 
+    margin: 0;
 }
