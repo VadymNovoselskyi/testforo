@@ -24,7 +24,6 @@ header {
     grid-column: 1;
 }
 
-
 .content {
     background-color: rgb(54, 54, 119);
 }
@@ -45,10 +44,6 @@ header {
 
 .astronaut {
     color: white;
-    padding-left: 36px;
-}
-
-img {
     padding-left: 36px;
 }
 
