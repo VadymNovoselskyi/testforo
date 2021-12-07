@@ -59,12 +59,11 @@ footer {
 }
 
 .fa {
-    width: 90px; 
+    width: 139px; 
     color: #fff;
-    background: rgba(30,191,235,1);
     text-align: center;
-    padding: 24.5px;
-    font-size: 36px; 
+    font-size: 36px;
+    padding-bottom: 6px;
 }
 .icon-bar a {
     display: inline-block;
@@ -73,6 +72,16 @@ footer {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+    padding: 24px 0;
+}
+
+.icon-bar a:hover {
+    background: rgba(13,42,120,1)
+}
+
+.icon-bar a.active {
+    background: rgb(34,193,195);
+    background: linear-gradient(117deg, rgba(34,193,195,1) 0%, rgba(45,253,141,1) 100%);
 }
 
 .dropdown-vertical {
@@ -103,8 +112,4 @@ footer {
     padding: 24.5px;
     font-size: 24px; 
     margin: 0;
-}
-
-li {
-    height: 102px;
 }
